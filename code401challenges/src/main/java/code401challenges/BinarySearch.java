@@ -2,11 +2,8 @@ package code401challenges;
 
 public class BinarySearch {
 
-    public static int binarySearch()
+    public static int binarySearch(int[] testArr, int key)
     {
-
-        int[] testArr = {1,2,3,4,5};
-        long key = 4;
 
         int start = testArr[0];
         int end = testArr.length -1;
