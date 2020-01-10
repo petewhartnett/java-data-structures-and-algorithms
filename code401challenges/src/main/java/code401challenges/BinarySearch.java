@@ -25,15 +25,10 @@ public class BinarySearch {
                end = middle -1;
            }
 
-
         }
 
 return -1;
 
-
     }
-
-
-
 
 }
