@@ -65,3 +65,26 @@ while loop efficiency is 0 (nlogn)
 ## Solution
 <!-- Embedded whiteboard image -->
 ![](assets/codechallenge3.JPG)
+
+
+
+# Mock Interview - Code challenge 4
+<!-- Short summary or background information -->
+For this algorithim I had to run the fibbinocci algorithim
+
+## Challenge
+<!-- Description of the challenge -->
+The challenge was to return the nth fibbinacci number 
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+For this I chose to do an iterative approach, I created a loop that would go n amount of times. I created integers n1, n2, and sum. I initated n1 to 0 and n2 to 1, sum to zero. On the first loop I added n1 and n2 to equal the sum. Then after that I set n1 equal to n2 and n2 equal to sum, and it loops again until it reaches the end and produces the nth fibbinocci number. 
+
+
+while loop efficiency is 0(n)
+
+
+## Solution
+<!-- Embedded whiteboard image -->
+![](assets/codechallenge4.JPG)
+![](assets/CC4feedback.JPG)
