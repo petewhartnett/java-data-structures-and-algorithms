@@ -43,3 +43,25 @@ while loop efficiency is 0 (n^2)
 ## Solution
 <!-- Embedded whiteboard image -->
 ![](assets/codechallenge2.JPG)
+
+
+
+# Binary Search - Code challenge 3
+<!-- Short summary or background information -->
+For this algorithim we took an array of sorted values and a key, and looked up the key using the binary search method. 
+
+## Challenge
+<!-- Description of the challenge -->
+The challenge was to find the key efficiently using the binary search algorithim.
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+For this we decided to first set the an integer to the start of the array, and one to the end. We then found the middle and created a variable for it as well. We then created a while loop that would continue until the start was not less then the end. Then in the while loop we start by checking the middle position for the key, if not there we cut off half of the algorithim depending on if the key is less or greater then the middle. Then the start or end point is adjusted to the middle depending on the less or greater operation, and the middle is recalculated. The while process begins again on each iteration until the key is found. 
+
+
+while loop efficiency is 0 (nlogn)
+
+
+## Solution
+<!-- Embedded whiteboard image -->
+![](assets/codechallenge3.JPG)
