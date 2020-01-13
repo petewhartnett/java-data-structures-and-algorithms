@@ -88,3 +88,22 @@ while loop efficiency is 0(n)
 <!-- Embedded whiteboard image -->
 ![](assets/codechallenge4.JPG)
 ![](assets/CC4feedback.JPG)
+
+
+
+# Singly Linked List
+Create a singly linked list 
+
+## Challenge
+The challenge is to be able to insert values, find the values, and print out all the values. 
+
+## Approach & Efficiency
+searchNode(Node head, int n);
+insert(int data);
+toString(Node head);
+
+## API
+<!-- Description of each method publicly available to your Linked List -->
+
+## References 
+For this lab geeks for geeks and stackoverflow were referenced for this lab
