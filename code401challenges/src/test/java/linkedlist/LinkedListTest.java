@@ -17,6 +17,7 @@ public class LinkedListTest {
 
         list.insert(16);
         list.insert(17);
+        list.append(19);
        if( list.searchNode(list.head, 16) == true){
 
            System.out.println("found data");
@@ -149,5 +150,57 @@ public class LinkedListTest {
 
     }
 
+    @Test
+    public void testAppend() {
+        LinkedList listTest7 = new LinkedList();
+        listTest7.insert(5);
+        listTest7.insert(6);
+        listTest7.append(7);
+        String actual = listTest7.toString(listTest7.head);
+        // System.out.println(str);
+        boolean isTrue = false;
+        String expected = "{6} -> {5} -> {7} -> ";
 
+
+        assertEquals("Can properly return a collection of all the values that exist in the linked list", expected, actual );
+
+    }
+
+
+
+    @Test
+    public void insertAfter() {
+        LinkedList listTest7 = new LinkedList();
+        listTest7.insert(5);
+        listTest7.insert(6);
+        listTest7.insert(7);
+        listTest7.insertAfter(listTest7.head.next, 10);
+        String actual = listTest7.toString(listTest7.head);
+        // System.out.println(str);
+
+        String expected = "{7} -> {6} -> {10} -> {5} -> ";
+
+
+        assertEquals("Can properly return a collection of all the values that exist in the linked list", expected, actual );
+
+    }
+
+
+
+    @Test
+    public void insertBefore() {
+        LinkedList listTest7 = new LinkedList();
+        listTest7.insert(6);
+        listTest7.insert(7);
+        listTest7.insert(8);
+        listTest7.insertBefore(listTest7.head.next.next, 10);
+        String actual = listTest7.toString(listTest7.head);
+        // System.out.println(str);
+
+        String expected = "{8} -> {7} -> {10} -> {6} -> ";
+
+
+        assertEquals("Can properly return a collection of all the values that exist in the linked list", expected, actual );
+
+    }
 }

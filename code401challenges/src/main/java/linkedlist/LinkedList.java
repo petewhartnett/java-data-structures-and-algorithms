@@ -35,6 +35,54 @@ public class LinkedList {
              return false;
             }
 
+            public void append(int data){
+            Node appendData = new Node(data);
+            if(head == null){
+                head = appendData;
+                return;
+            }
+            appendData.next = null;
+
+            Node current = head;
+            while(current.next != null){
+                current = current.next;
+            }
+
+            current.next = appendData;
+            return;
+
+            }
+
+
+            public void insertAfter(Node prev, int data){
+
+            Node insertAfter = new Node(data);
+
+            insertAfter.next = prev.next;
+
+            prev.next = insertAfter;
+
+
+            }
+
+            public void insertBefore(Node prev, int data){
+
+             Node insertBefore = new Node(data);
+
+             Node current = head;
+                while (current.next != null){
+             if(current.next == prev){
+                current.next = insertBefore;
+                insertBefore.next = prev;
+                break;
+                }
+
+            current = current.next;
+            }
+
+
+    }
+
 
     public String toString(Node head){
         Node current = head;
