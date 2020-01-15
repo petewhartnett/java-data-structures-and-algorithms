@@ -203,4 +203,44 @@ public class LinkedListTest {
         assertEquals("Can properly return a collection of all the values that exist in the linked list", expected, actual );
 
     }
+
+    @Test
+    public void testFindKthFromEnd() {
+        LinkedList listTest7 = new LinkedList();
+        listTest7.insert(5);
+        listTest7.insert(6);
+        listTest7.insert(7);
+        listTest7.insert(8);
+        listTest7.insert(9);
+
+        int actual = listTest7.findKth(listTest7.head, 3);
+        // System.out.println(str);
+
+        int expected = 7;
+
+
+        assertEquals("This test should find the 3rd element from the end", expected, actual );
+
+    }
+    @Test
+    public void testFindKthFromEndTestTwo() {
+        LinkedList listTest7 = new LinkedList();
+        listTest7.insert(5);
+        listTest7.insert(6);
+        listTest7.insert(7);
+        listTest7.insert(8);
+        listTest7.insert(9);
+        listTest7.insert(10);
+
+        int actual = listTest7.findKth(listTest7.head, 5);
+        // System.out.println(str);
+
+        int expected = 9;
+
+
+        assertEquals("This test should find the 5th element from the end", expected, actual );
+
+    }
+
+
 }
