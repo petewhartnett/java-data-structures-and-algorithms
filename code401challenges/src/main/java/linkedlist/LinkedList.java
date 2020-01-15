@@ -83,6 +83,24 @@ public class LinkedList {
 
     }
 
+    public int findKth(Node head, int k){
+
+        Node current = head;
+
+        while (k > 0){
+            current = current.next;
+            k--;
+        }
+        Node getKth = head;
+        while(current != null){
+            current = current.next;
+            getKth = getKth.next;
+
+        }
+        int j = getKth.data;
+
+        return j;
+    }
 
     public String toString(Node head){
         Node current = head;
