@@ -88,3 +88,67 @@ while loop efficiency is 0(n)
 <!-- Embedded whiteboard image -->
 ![](assets/codechallenge4.JPG)
 ![](assets/CC4feedback.JPG)
+
+
+
+
+# Insertions - Code challenge 6
+<!-- Short summary or background information -->
+For this algorithim I had to insert a value before a given value, after a given value, and also appending a node.
+
+## Challenge
+<!-- Description of the challenge -->
+The challenge was to insert a value before a given value, after a given value, and also appending a node.
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+For this I chose to do an iterative approach for all methods. They are were set up very similiarly. I created a new node named current, and set it equal to the head. I iterated through the loop and stopped to insert when the next one was the value to insert before for the before method. The after method was similiar but stopped one after and changed the next direction of the other nodes. 
+
+while loop efficiency is 0(n)
+
+
+## Solution
+<!-- Embedded whiteboard image -->
+
+
+
+# Insertions - Code challenge 7
+<!-- Short summary or background information -->
+For this algorithim I had to insert data into a node at the kth node from the end. The kth element was a value given by a user.
+
+## Challenge
+<!-- Description of the challenge -->
+The challenge was to insert data into a node at the kth node from the end. The kth element was a value given by a user.
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+This was a tricky question, it took a while to get to the correct solution. In the end we set up a current node and ran it through a while loop while subtracting each round form an integer set to the kth value. This made it to the current node would stop the correct distance from the end. We then looped through a second time and when that current node reached the end then a newly created node was set to the correct spot becuase it was the kth distance behind current. 
+
+while loop efficiency is 0(n)
+
+
+
+
+## Solution
+<!-- Embedded whiteboard image -->
+
+# Insertions - Code challenge 8
+<!-- Short summary or background information -->
+For this algorithim we had to merge two linked lists.
+
+## Challenge
+<!-- Description of the challenge -->
+The challenge was to merge two linked lists like a zipper. 
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+This was another tricky question. At first we came up with an iterative approach to merge from each list on a counter when it was even or odd. That method would work but we wanted to try to figure out a recursive approach similiar to fibbinacci. So we have the method taking in a parameter of two nodes, and each round it takes the value form the opposite linked list and inserts it. It's not alot of code but is more confusing for me then the itterative approach.
+while loop efficiency is 0(n)
+
+
+## Solution
+<!-- Embedded whiteboard image -->
+![](assets/code08.JPG)
+
+
+
