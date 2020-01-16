@@ -115,6 +115,17 @@ public class LinkedList {
         return str;
     }
 
+    public void mergeList(Node one, Node two) {
+
+        if (one == null || two == null) {
+            return;
+        }
+
+        Node runner = one.next;
+        one.next = two;
+        mergeList(two, runner);
+    }
+
 
     }
 
