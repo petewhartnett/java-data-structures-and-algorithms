@@ -92,6 +92,22 @@ while loop efficiency is 0(n)
 
 
 
+# Singly Linked List
+Create a singly linked list 
+
+## Challenge
+The challenge is to be able to insert values, find the values, and print out all the values. 
+
+## Approach & Efficiency
+searchNode(Node head, int n);
+insert(int data);
+toString(Node head);
+
+## References 
+For this lab geeks for geeks and stackoverflow were referenced for this lab
+
+
+
 # Insertions - Code challenge 6
 <!-- Short summary or background information -->
 For this algorithim I had to insert a value before a given value, after a given value, and also appending a node.
@@ -149,6 +165,4 @@ while loop efficiency is 0(n)
 ## Solution
 <!-- Embedded whiteboard image -->
 ![](assets/code08.JPG)
-
-
 
