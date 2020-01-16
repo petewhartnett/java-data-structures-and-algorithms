@@ -242,5 +242,37 @@ public class LinkedListTest {
 
     }
 
+    @Test
+    public void testMergeList() {
+        LinkedList test = new LinkedList();
+        LinkedList listTest7 = new LinkedList();
+        listTest7.insert(2);
+        listTest7.insert(4);
+        listTest7.insert(6);
+        listTest7.insert(8);
+        listTest7.insert(10);
+
+
+        LinkedList listTest8 = new LinkedList();
+        listTest8.insert(1);
+        listTest8.insert(3);
+        listTest8.insert(5);
+        listTest8.insert(7);
+        listTest8.insert(9);
+
+      test.mergeList(listTest7.head,listTest8.head);
+
+
+
+      String  actual = test.toString(listTest7.head);
+      System.out.println(test.toString(listTest7.head));
+
+        String expected = "{10} -> {9} -> {8} -> {7} -> {6} -> {5} -> {4} -> {3} -> {2} -> {1} -> ";
+
+
+       assertEquals("This test should find the 5th element from the end", expected, actual );
+
+    }
+
 
 }
