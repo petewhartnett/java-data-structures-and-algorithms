@@ -87,7 +87,7 @@ while loop efficiency is 0(n)
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![](assets/codechallenge4.JPG)
+![](assets/codechallenge4.jpg)
 ![](assets/CC4feedback.JPG)
 
 
