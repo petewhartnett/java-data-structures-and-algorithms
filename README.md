@@ -165,5 +165,5 @@ while loop efficiency is 0(n)
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![](assets/code08.JPG)
+![](assets/code08.jpg)
 
