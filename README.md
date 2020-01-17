@@ -40,6 +40,7 @@ For this we chose to create a new array that is the length of the old array + 1.
 while loop efficiency is 0 (n^2)
 
 
+
 ## Solution
 <!-- Embedded whiteboard image -->
 ![](assets/codechallenge2.JPG)
