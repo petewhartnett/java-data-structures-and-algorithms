@@ -75,6 +75,7 @@ public class LinkedList {
                 current.next = insertBefore;
                 insertBefore.next = prev;
                 break;
+
                 }
 
             current = current.next;
