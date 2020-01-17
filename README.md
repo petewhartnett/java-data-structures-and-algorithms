@@ -42,7 +42,7 @@ while loop efficiency is 0 (n^2)
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![](/assets/codechallenge2.JPG)
+![](assets/codechallenge2.jpg)
 
 
 
