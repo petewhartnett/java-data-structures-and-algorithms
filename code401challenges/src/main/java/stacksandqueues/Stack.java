@@ -8,7 +8,7 @@ public class Stack {
 
     public void push(int data){
         stacksandqueues.Node node = new Node(data);
-
+        node.data = data;
         if(top == null){
             top = node;
             node.next = null;

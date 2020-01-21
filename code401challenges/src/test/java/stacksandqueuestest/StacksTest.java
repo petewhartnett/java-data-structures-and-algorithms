@@ -62,7 +62,7 @@ public class StacksTest {
         Boolean expected = false;
         Boolean actual = stack.isEmpty();
 
-        //System.out.println(queue.toString());
+        System.out.println(stack.toString());
         assertEquals("Should return false if not empty", expected, actual );
 
     }
