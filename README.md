@@ -167,3 +167,46 @@ while loop efficiency is 0(n)
 <!-- Embedded whiteboard image -->
 ![](assets/code08.jpg)
 
+
+
+
+# Psuedo Queue - Code challenge 11
+<!-- Short summary or background information -->
+For this algorithim we had to create a queue using two stacks.
+
+## Challenge
+<!-- Description of the challenge -->
+The challenge was to use two stacks in order to get the que to work. 
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+My aproach was not very efficient but I looped through the stack until it got to two from the end and it returned the last one and then deleted it by seting the next value of the second to last one to null. This turned the stack into a que with the added while loop. 
+while loop efficiency is 0(n)
+
+
+## Solution
+<!-- Embedded whiteboard image -->
+![](assets/twostacks.JPG)
+
+
+
+
+# Animal Shelter - Code challenge 12
+<!-- Short summary or background information -->
+For this algorithim we had to create an animal shelter queue to get animals in by the first in first out technique. 
+
+## Challenge
+<!-- Description of the challenge -->
+The challenge was to create an animal constructor and pass it through a queue to remove the animals in the correct order. 
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+For this I created a class for dogs, in this class a created a constructor with the dogs properties. This acted as the node for the list. I then created an Enqueue and added the dogs to the queue. They are added at the back and exit the front when the dequeue is called. 
+efficiency is 0(n)
+
+
+## Solution
+<!-- Embedded whiteboard image -->
+![](assets/animalshelter.JPG)
+
+
