@@ -45,4 +45,45 @@ public class AnimalShelterTest {
 
     }
 
+
+    //Tests enqueue cat is inserting properly
+    @Test
+    public void testShelterCatEnqueueMethod() {
+
+        AnimalShelter seattle = new AnimalShelter();
+
+        seattle.enqueueCat("kitten");
+        seattle.enqueueCat("tinkerbell");
+        seattle.enqueueCat("frank");
+        seattle.enqueueCat("franklin");
+        seattle.enqueueCat("franky");
+
+
+
+        String actual = seattle.dequeueCat();
+        String expected = "kitten";
+        assertEquals("Should return the first animal entered, kitten in this case", expected, actual );
+
+    }
+
+    //Tests enqueue cat is inserting properly
+    @Test
+    public void testShelterCatDenqueueMethod() {
+
+        AnimalShelter seattle = new AnimalShelter();
+
+        seattle.enqueueCat("boomer");
+        seattle.enqueueCat("tucker");
+        seattle.enqueueCat("oscar");
+
+
+
+
+        String actual = seattle.dequeueCat();
+        String expected = "boomer";
+        assertEquals("Should return the first animal entered, boomer in this case", expected, actual );
+
+    }
+
+
 }

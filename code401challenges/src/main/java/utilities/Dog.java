@@ -9,10 +9,8 @@ public class Dog {
 
         Dog next;
 
-        String Name;
         public Dog(String name){
             this.name = name;
-
         }
 
         public void display(){
