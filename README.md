@@ -210,3 +210,23 @@ efficiency is 0(n)
 ![](assets/animalshelter.JPG)
 
 
+
+
+# Bracket Validattion - Code challenge 13
+<!-- Short summary or background information -->
+For this algorithim we were taked with created an algorithim that would validate brack syntax in java.
+## Challenge
+<!-- Description of the challenge -->
+The challenge was to return true for valid bracked marking, such as {} or []{}. 
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+For this task I created a stack which I passed through the string given. If the stack found a bracket facing the wrong way before the left facing bracket was found then it will return false, if not it will return true. There are still some edge cases not accounted for that I am still working on solving.
+
+This approach is 0(1)
+
+## Solution
+<!-- Embedded whiteboard image -->
+![](assets/Challenge13.JPG)
+
+
