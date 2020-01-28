@@ -15,14 +15,14 @@ public class FizzBuzzTreeTest {
     public void testFizz() {
 
         FizzBuzzTree test = new FizzBuzzTree();
-        Node2 root = new Node2("1");
-        root.left = new Node2 ("3");
-        root.right = new Node2("5");
+        Node root = new Node(1);
+        root.left = new Node (3);
+        root.right = new Node(5);
 
 
-        ArrayList<String> arraylist = test.fizzBuzz(root);
+        ArrayList arraylist = test.fizzBuzz(root);
         System.out.println(arraylist);
-        String actual = arraylist.toString();
+       String actual = arraylist.toString();
         String expected = "[fizz, 1, buzz]";
 
          assertEquals("tests fizz value ", expected, actual );
@@ -33,9 +33,9 @@ public class FizzBuzzTreeTest {
     public void testFizzBuzz() {
 
         FizzBuzzTree test = new FizzBuzzTree();
-        Node2 root = new Node2("1");
-        root.left = new Node2 ("3");
-        root.right = new Node2("15");
+        Node root = new Node(1);
+        root.left = new Node (3);
+        root.right = new Node(15);
 
 
         ArrayList<String> arraylist = test.fizzBuzz(root);
@@ -50,9 +50,9 @@ public class FizzBuzzTreeTest {
     public void testBuzz() {
 
         FizzBuzzTree test = new FizzBuzzTree();
-        Node2 root = new Node2("5");
-        root.left = new Node2 ("5");
-        root.right = new Node2("15");
+        Node root = new Node(5);
+        root.left = new Node (5);
+        root.right = new Node(15);
 
 
         ArrayList<String> arraylist = test.fizzBuzz(root);
