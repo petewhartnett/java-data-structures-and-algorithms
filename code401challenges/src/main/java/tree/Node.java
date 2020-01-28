@@ -3,9 +3,9 @@ package tree;
 
     public class Node
     {
-        Node right;
-        Node left;
-        int data;
+        public Node right;
+       public  Node left;
+        public int data;
         public Node(int data){
             this.data = data;
             this.left = null;

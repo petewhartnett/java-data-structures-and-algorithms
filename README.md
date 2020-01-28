@@ -214,7 +214,7 @@ efficiency is 0(n)
 
 # Bracket Validattion - Code challenge 13
 <!-- Short summary or background information -->
-For this algorithim we were taked with created an algorithim that would validate brack syntax in java.
+For this algorithim we were tasked with creatung an algorithim that would validate brack syntax in java.
 ## Challenge
 <!-- Description of the challenge -->
 The challenge was to return true for valid bracked marking, such as {} or []{}. 
@@ -229,4 +229,40 @@ This approach is 0(1)
 <!-- Embedded whiteboard image -->
 ![](assets/Challenge13.JPG)
 
+
+
+# Binary Tree - Code challenge 15
+<!-- Short summary or background information -->
+For this algorithim we were tasked with creatung a a binary tree 
+## Challenge
+<!-- Description of the challenge -->
+The challenge was to create a binary search tree that would have less values in the left child node, and greater values in the right child node. We also had to create methods to traverse the tree with only viewing each node once. 
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+For this lab there was alot of recursion used. For example a typical recursive method would first visit the root node, then its left child, then recursively pass that nodes left child until all left were complete, then it would move to the right. 
+
+This approach is 0(n) becuase it will be greater depending on the size of the tree. 
+
+## Solution
+<!-- Embedded whiteboard image -->
+![](assets/Challenge13.JPG)
+
+
+# Binary Tree - Code challenge 16
+<!-- Short summary or background information -->
+For this algorithim we were tasked with creatung a a binary tree that would be evaluated to change the value to fizz, buzz, or fizzbuzz based on the data being divisible by 3 or 5 or both. 
+
+<!-- Description of the challenge -->
+The challenge was to have data that could use both string and integer. 
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+For this challenge I created a new node that had a string string for its data. It then evaluates the data and pushes it into a different data set that is evaluated in the test and returns the same as the  
+
+This approach is 0(n) becuase it will be greater depending on the size of the tree. 
+
+## Solution
+<!-- Embedded whiteboard image -->
+![](assets/FizzBuzzTree.JPG)
 

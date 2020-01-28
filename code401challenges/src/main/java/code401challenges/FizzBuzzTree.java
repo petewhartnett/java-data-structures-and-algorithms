@@ -1,19 +1,20 @@
 package code401challenges;
 
 
+import tree.Node;
 import tree.Node2;
 import tree.Tree;
 
 import java.util.ArrayList;
 
-public class FizzBuzzTree {
+public class FizzBuzzTree<e> {
 
 
     Tree tree = new Tree();
 
-    ArrayList<String> arrayList = new ArrayList<String>();
+    ArrayList arrayList = new ArrayList();
 
-    ArrayList<String>fizzBuzz(Node2 node){
+    ArrayList<e> fizzBuzz(Node node){
 
         if (node == null){
             return arrayList;
@@ -22,19 +23,20 @@ public class FizzBuzzTree {
 
 
         fizzBuzz(node.left);
-        if(node.data == "3"){
-            node.data = "fizz";
-            arrayList.add(node.data);
+         if(node.data % 3 == 0 && node.data % 5 == 0){
+
+            arrayList.add("fizzBuzz");
         }
-        else if(node.data == "5"){
-            node.data = "buzz";
-            arrayList.add(node.data);
+        else if(node.data % 3 == 0){
+
+            arrayList.add("fizz");
+        }
+        else if(node.data % 5 == 0){
+
+            arrayList.add("buzz");
         }
 
-        else if(node.data == "15"){
-            node.data = "fizzBuzz";
-            arrayList.add(node.data);
-        }
+
         else{
             arrayList.add(node.data);
         }
