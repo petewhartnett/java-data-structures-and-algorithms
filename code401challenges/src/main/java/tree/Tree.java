@@ -1,5 +1,7 @@
 package tree;
 
+import stacksandqueues.Queue;
+
 import java.util.ArrayList;
 
 public class Tree {
@@ -52,6 +54,30 @@ public class Tree {
         inOrder(node.left);
         inOrder(node.right);
         arrayList.add(node.data);
+
+        return arrayList;
+
+    }
+
+    public ArrayList<Integer> breadthSearch(Node node){
+
+        Queue queue = new Queue();
+        ArrayList<Integer> arrayList = new ArrayList<Integer>();
+        queue.enqueue(node.data);
+
+        while(!queue.isEmpty()){
+
+            if(node.left != null){
+
+                queue.enqueue(node.data);
+                arrayList.add(queue.dequeue());
+            }
+            if(node.right != null){
+                arrayList.add(queue.dequeue());
+                queue.enqueue(node.data);
+            }
+
+        }
 
         return arrayList;
 
