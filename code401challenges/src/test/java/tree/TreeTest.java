@@ -44,10 +44,13 @@ public class TreeTest {
         root.right = new Node(2);
         Tree test = new Tree();
 
+
         ArrayList<Integer> arraylist = test.postOrder(root);
+
 
         String actual = arraylist.toString();
         String expected = "[10, 2, 1]";
+        //test1.breadthSearch(root);
 
         assertEquals("inserted value tree ", expected, actual );
     }

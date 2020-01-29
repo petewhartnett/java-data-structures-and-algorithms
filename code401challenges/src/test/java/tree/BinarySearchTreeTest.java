@@ -43,6 +43,7 @@ public class BinarySearchTreeTest {
         boolean actual = testTree.callsSearchForData(22);
         boolean expected = false;
 
+
         // System.out.println(actual);
 
         assertEquals("inserted value into middle of array", expected, actual);
