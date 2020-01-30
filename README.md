@@ -266,3 +266,39 @@ This approach is 0(n) becuase it will be greater depending on the size of the tr
 <!-- Embedded whiteboard image -->
 ![](assets/FizzBuzzTree.JPG)
 
+
+# Breath First Traversal - Code challenge 17
+<!-- Short summary or background information -->
+For this algorithim we were tasked with creatung a method to traverse a tree without using recursion, and creating an identical tree. 
+<!-- Description of the challenge -->
+The challenge was to figure out how to iterativaly traverse the tree. 
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+For this challenge I used a queue to enqueue the value as it is come across. This happened while the equeue is not empty and then if node.left was not empty it went that direction first, then node.right next.
+
+This approach is 0(n) becuase it will be greater depending on the size of the tree. 
+
+## Solution
+<!-- Embedded whiteboard image -->
+![](assets/FizzBuzzTree.JPG)
+
+
+
+# Binary Tree MAX integer- Code challenge 18
+<!-- Short summary or background information -->
+For this algorithim we were tasked with finding the largest integer inside of the tree.
+
+<!-- Description of the challenge -->
+The challenge was to return the largest integer.
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+For this challenge I used recursion to come up with the answer. I first created an integer and set it to zero outside of the method. Then I created the method using the normal recursion used for inorder traversal with the change that I created logic that compared the max int to the current node data and if greater then max int took that value. Max int is returned at the end. 
+
+This approach is 0(n) becuase it will be greater depending on the size of the tree. 
+
+## Solution
+<!-- Embedded whiteboard image -->
+![](assets/maxInt.JPG)
+
