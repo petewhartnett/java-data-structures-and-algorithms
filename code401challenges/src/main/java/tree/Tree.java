@@ -82,5 +82,22 @@ public class Tree {
         return arrayList;
 
     }
+    int maxValue = 0;
+
+    public int findMaxValue(Node node, int maxValue){
+
+        if (node == null){
+            return maxValue;
+        }
+        if(node.data > maxValue){
+            maxValue = node.data;
+        }
+        findMaxValue(node.left, maxValue);
+        findMaxValue(node.right, maxValue);
+
+        return maxValue;
+
+    }
+
 
 }

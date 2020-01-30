@@ -47,13 +47,33 @@ public class TreeTest {
 
         ArrayList<Integer> arraylist = test.postOrder(root);
 
-
+        int data = 0;
         String actual = arraylist.toString();
         String expected = "[10, 2, 1]";
         //test1.breadthSearch(root);
-
+        int tester = test.findMaxValue(root, data);
+        System.out.println(tester);
         assertEquals("inserted value tree ", expected, actual );
     }
 
+
+
+    @Test public void testMaxValue() {
+        Node root = new Node(10);
+        root.left = new Node (1);
+        root.right = new Node(2);
+        Tree test = new Tree();
+
+
+        ArrayList<Integer> arraylist = test.postOrder(root);
+
+        int data = 0;
+
+        int expected = 10;
+        //test1.breadthSearch(root);
+        int actual = test.findMaxValue(root, data);
+        System.out.println(actual);
+        assertEquals("inserted value tree ", expected, actual );
+    }
 
 }
