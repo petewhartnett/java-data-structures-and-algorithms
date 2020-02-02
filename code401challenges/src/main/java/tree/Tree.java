@@ -82,7 +82,7 @@ public class Tree {
         return arrayList;
 
     }
-    int maxValue = 0;
+    int maxValue = Integer.MIN_VALUE;
 
     public int findMaxValue(Node node, int maxValue){
 

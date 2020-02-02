@@ -143,6 +143,10 @@ This was a tricky question, it took a while to get to the correct solution. In t
 
 while loop efficiency is 0(n)
 
+## Solution
+<!-- Embedded whiteboard image -->
+![](assets/FindKth.JPG)
+
 
 
 
