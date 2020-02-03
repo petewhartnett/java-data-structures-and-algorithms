@@ -285,7 +285,7 @@ This approach is 0(n) becuase it will be greater depending on the size of the tr
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![](assets/FizzBuzzTree.JPG)
+![](assets/nonrecursive.JPG)
 
 
 
@@ -304,5 +304,5 @@ This approach is 0(n) becuase it will be greater depending on the size of the tr
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![](assets/maxInt.JPG)
+![](assets/FindMax.JPG)
 
