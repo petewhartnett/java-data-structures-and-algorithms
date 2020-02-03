@@ -173,6 +173,29 @@ while loop efficiency is 0(n)
 
 
 
+# Stacks and Ques - Lab 10
+<!-- Short summary or background information -->
+
+Create a Node class that has properties for the value stored in the Node, and a pointer to the next node.
+Create a Stack class that has a top property. It creates an empty Stack when instantiated. 
+
+# Classes
+Node.java
+Queue.java
+Stack.java
+
+# Methods
+
+enqueue()
+denqueue()
+peek()
+isEmtpy()
+toString()
+push()
+Pop()
+peek()
+
+
 
 # Psuedo Queue - Code challenge 11
 <!-- Short summary or background information -->
