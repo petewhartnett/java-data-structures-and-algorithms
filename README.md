@@ -330,3 +330,22 @@ This approach is 0(n) becuase it will be greater depending on the size of the tr
 <!-- Embedded whiteboard image -->
 ![](assets/FindMax.JPG)
 
+
+
+# Challenge Summary
+The challenge was to create an insertion sort algorithim 
+
+
+## Challenge Description
+<!-- Description of the challenge -->
+The challenge was to loop through an array of unsorted integers and organize them least to greatest using insertion short
+method. The Insertion sort method takes a number that is less then the previous ones in the list and places it as far to the left as it can go. 
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+
+
+## Solution
+<!-- Embedded whiteboard image -->
+
+
