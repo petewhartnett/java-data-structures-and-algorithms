@@ -21,6 +21,12 @@ SelectionSort(int []arr)
         arr[min] <-- arr[i]; 
         arr[i] <-- temp; 
         
+        
+        
+        
+### WALKTHROUGH
+![](assets/insertionsort.JPG)
+        
 ### PASS ONE
  
  On the first Pass the algorithim will evaluate the 1 and 7 and the 1 will be found smaller and moved to the left.
