@@ -2,23 +2,45 @@ package InsertionSort;
 
 import org.junit.Test;
 
+import static org.junit.Assert.*;
+
 public class InsertionSortTest {
 
 
     @Test
-    public void testInsertionSort() {
-        int[] arr = {5,3,1,6,8};
-     // System.out.println( InsertionSort.insertionSort(arr));
+    public void testInsertSort() {
+
+        int[] arr = {1,5,2,9,3};
+
+
+       int[] sorted = InsertionSort.insertionSort(arr);
+
+      int expected = 3;
+      int actual = sorted[2];
+
         System.out.println("test");
-       // InsertionSort.insertionSort(arr);
 
-        //boolean actual = true;
-        //boolean expected = true;
-
-
-        // System.out.println(actual);
-    //   assertEquals("inserted value into middle of array", expected, actual);
+       assertEquals("Tests to make sure order correct", expected, actual);
     }
+
+
+    @Test
+    public void testInsertSort2() {
+
+        int[] arr = {1,5,2,9,3};
+
+
+        int[] sorted = InsertionSort.insertionSort(arr);
+
+        int expected = 9;
+        int actual = sorted[4];
+
+        System.out.println("test");
+
+        assertEquals("Tests to make sure order correct", expected, actual);
+    }
+
+
 
 
 }
