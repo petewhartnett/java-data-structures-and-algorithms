@@ -347,5 +347,6 @@ method. The Insertion sort method takes a number that is less then the previous 
 
 ## Solution
 <!-- Embedded whiteboard image -->
+![](assets/insertionsort.JPG)
 
 
