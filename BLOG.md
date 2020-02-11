@@ -17,7 +17,6 @@ SelectionSort(int []arr)
         FOR j = i + 1 to n 
             if (arr[j] < arr[min]) 
                 min <-- j; 
- 
         DECLARE temp <-- arr[min]; 
         arr[min] <-- arr[i]; 
         arr[i] <-- temp; 
