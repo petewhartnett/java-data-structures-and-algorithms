@@ -350,3 +350,26 @@ method. The Insertion sort method takes a number that is less then the previous 
 ![](assets/insertionsort.JPG)
 
 
+
+
+# Challenge Summary
+The challenge was to create a Merge Sort algorithim 
+
+
+## Challenge Description
+<!-- Description of the challenge -->
+The challenge was to take in an array of unsorted integers, and split it into two halfs over and over again until it is sorted. 
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+For this Approach I ussed recursion to split the array into two halfs over and over again and used the helper method merge to sort the halfs. This happens over and over again until it is fully sorted.
+
+Big O is 0 (n2)
+
+
+## Solution
+<!-- Embedded whiteboard image -->
+![](assets/MergeSort.jpg)
+
+
+
