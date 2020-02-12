@@ -1,4 +1,4 @@
-package InsertionSort;
+package sort;
 //https://www.baeldung.com/java-insertion-sort  this was referenced to get a further explanation of the call stack and to check my logic on the Big O
 
 

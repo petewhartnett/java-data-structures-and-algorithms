@@ -1,6 +1,5 @@
 package tree;
 
-import InsertionSort.InsertionSort;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
