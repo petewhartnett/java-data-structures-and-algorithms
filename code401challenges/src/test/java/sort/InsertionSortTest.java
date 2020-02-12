@@ -29,6 +29,7 @@ public class InsertionSortTest {
 
         int[] arr = {1,5,2,9,3};
 
+        MergeSort.mergeSort(arr);
 
         int[] sorted = InsertionSort.insertionSort(arr);
 
