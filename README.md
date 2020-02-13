@@ -373,3 +373,30 @@ Big O is 0 (n2)
 
 
 
+
+
+# Challenge Summary
+The challenge was to create a Quick Sort algorithim 
+
+
+## Challenge Description
+<!-- Description of the challenge -->
+The challenge was to take in an array of unsorted integers, and return a sorted array. 
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+For this Approach I used a pivot location to take everything less then it and place it on the left, and everything larger then it and place it on the right. I used recursion to split the array into two halfs over and over again and come together at the end sorted.
+
+Big O is 0 (n2)
+
+
+## Solution
+<!-- Embedded whiteboard image -->
+![](assets/QuickSort.jpg)
+
+
+
+
+
+
+
