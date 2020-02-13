@@ -28,8 +28,9 @@ public class InsertionSortTest {
     public void testInsertSort2() {
 
         int[] arr = {1,5,2,9,3};
+        int left = 1;
+        int right = 4;
 
-        MergeSort.mergeSort(arr);
 
         int[] sorted = InsertionSort.insertionSort(arr);
 
@@ -38,7 +39,7 @@ public class InsertionSortTest {
 
         System.out.println("test");
 
-        assertEquals("Tests to make sure order correct", expected, actual);
+      assertEquals("Tests to make sure order correct", expected, actual);
     }
 
 

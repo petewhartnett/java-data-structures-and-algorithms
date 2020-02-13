@@ -9,7 +9,7 @@ public class MergeSortTest {
 
 
         @Test
-        public void testInsertSort() {
+        public void testMergeSort() {
 
             int[] arr = {1,5,2,9,3};
 
