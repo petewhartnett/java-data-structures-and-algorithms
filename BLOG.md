@@ -187,7 +187,7 @@ ALGORITHM Swap(arr, i, low)
         
         
 ### WALKTHROUGH
-![](assets/MergeSort.jpg)
+![](assets/QuickSort.jpg)
         
 ### PASS ONE
  
