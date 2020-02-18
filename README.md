@@ -397,6 +397,30 @@ Big O is 0 (n2)
 
 
 
+# Hashtables
+<!-- Short summary or background information -->
+For todays lab we had to create a hash table with the following methods:
+
+add();  The add method will insert data into the hash table, dealing with collisions that occur. 
+contains();  Contains will give give a true/false response to if the searched data exists in the hash table
+get();    Get will retrieve the data that is being looked for. 
+hash();    // hash method is what creates the index location for each item using a math algorithim
+ 
+
+## Challenge
+<!-- Description of the challenge -->
+
+The challenge was to set up the entire data structure from scratch not using the built in hash mapping functionalitly.
+
+## Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+
+The efficiency was 0(n) for the insertion and 0(n) for collisions becuase of the linked list being used every node needs to be visiting until the one looked for is found. 
+
+## API
+<!-- Description of each method publicly available in each of your hashtable -->
+
+
 
 
 
