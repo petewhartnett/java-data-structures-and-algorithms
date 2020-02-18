@@ -1,5 +1,6 @@
 package tree;
 
+import hashtable.Hashtable;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -11,6 +12,12 @@ public class BinarySearchTreeTest {
     public void testBinarySearchTree() {
 
         BinarySearchTree testTree = new BinarySearchTree();
+
+        Hashtable hashtable = new Hashtable();
+
+        String key = "peter";
+
+        Hashtable.hash(key);
 
         testTree.callInsertData(7);
         testTree.callInsertData(8);
