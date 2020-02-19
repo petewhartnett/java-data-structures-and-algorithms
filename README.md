@@ -441,7 +441,7 @@ For this I chose to first take the string and convert it into all lower case let
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![](assets/repeatedword.jpg)
+![](assets/repeatword.jpg)
 
 
 
