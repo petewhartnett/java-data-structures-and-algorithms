@@ -417,8 +417,35 @@ The challenge was to set up the entire data structure from scratch not using the
 
 The efficiency was 0(n) for the insertion and 0(n) for collisions becuase of the linked list being used every node needs to be visiting until the one looked for is found. 
 
-## API
-<!-- Description of each method publicly available in each of your hashtable -->
+
+
+
+
+
+# RepeatWord - Code challenge
+<!-- Short summary or background information -->
+For this algorithim we took in a String and had to return the first repeated word. 
+
+## Challenge
+<!-- Description of the challenge -->
+The challenge was to find the first repeated word within the string. Also, to deal with edge cases such as empty string. 
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+For this I chose to first take the string and convert it into all lower case letters, I then split the string by the spaces between words and stored them in a string array. After that I used two for loops and compared the string at position i with position j (the innerloop) until it found one matching, the first one found is returned as that fulfills the requirements. 
+
+
+ efficiency is 0 (n^2) because two forloops are usd. 
+
+
+
+## Solution
+<!-- Embedded whiteboard image -->
+![](assets/repeatedword.jpg)
+
+
+
+
 
 
 
