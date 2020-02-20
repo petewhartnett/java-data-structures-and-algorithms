@@ -1,5 +1,6 @@
 package tree;
 
+import treeIntersection.TreeIntersection;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -64,8 +65,23 @@ public class TreeTest {
         root.right = new Node(2);
         Tree test = new Tree();
 
+        Node root2 = new Node(10);
+        root.left = new Node (1);
+        root.right = new Node(2);
 
-        ArrayList<Integer> arraylist = test.postOrder(root);
+
+
+       // ArrayList<Integer> arraylist = test.postOrder(root);
+
+
+        ArrayList<Integer> arrayList;
+        arrayList = TreeIntersection.treeIntersection(root,root2);
+
+        for(int i = 0; i < arrayList.size(); i++){
+            System.out.println(arrayList.get(i));
+
+        }
+
 
         int data = 0;
 
