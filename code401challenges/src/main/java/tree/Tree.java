@@ -15,7 +15,7 @@ public class Tree {
     // baeldung.com and a geeks for geeks whiteboard style video were referenced during research for this tree
     ArrayList<Integer> arrayList = new ArrayList<Integer>();
 
-        ArrayList<Integer>inOrder(Node node){
+        public ArrayList<Integer>inOrder(Node node){
 
         if (node == null){
             return arrayList;
@@ -29,7 +29,7 @@ public class Tree {
 
         }
 
-    ArrayList<Integer>preOrder(Node node){
+    public ArrayList<Integer>preOrder(Node node){
 
         if (node == null){
             return arrayList;
