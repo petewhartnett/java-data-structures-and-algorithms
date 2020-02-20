@@ -449,5 +449,31 @@ For this I chose to first take the string and convert it into all lower case let
 
 
 
+# TreeIntersection - Code challenge
+<!-- Short summary or background information -->
+For this algorithim we took in two binary trees and returned the integers that were present in both trees.
+
+## Challenge
+<!-- Description of the challenge -->
+The challenge was to find Integers located in both trees and return a list of the, but not the others. 
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+For the whiteboard approach I chose to use the mor efficient hash table way, however I had issues implementing the code so I ended up just using two array lists and comparing the lists for duplicates.  First I use inorder traversal and place all nodes into an arraylist, then I use the retainAll() method to get a list of duplciates. 
+
+
+
+ efficiency is 0 (n^2) because everynode is touched in both trees twice. 
+
+
+
+## Solution
+<!-- Embedded whiteboard image -->
+![](assets/treeinterseciton.jpg)
+
+
+
+
+
 
 
