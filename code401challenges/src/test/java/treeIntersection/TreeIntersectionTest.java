@@ -1,5 +1,6 @@
 package treeIntersection;
 
+import graph.Graph;
 import org.junit.Test;
 import tree.Node;
 import tree.Tree;
@@ -14,11 +15,11 @@ public class TreeIntersectionTest {
 
     @Test
     public void inOrder() {
-
+        Tree test = new Tree();
         Node root = new Node(1);
         root.left = new Node (10);
         root.right = new Node(2);
-        Tree test = new Tree();
+
 
 
 
@@ -35,7 +36,6 @@ public class TreeIntersectionTest {
 
     @Test
     public void treeIntersection() {
-
 
         Node root = new Node(7);
         root.left = new Node(1);
