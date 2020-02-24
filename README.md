@@ -477,3 +477,30 @@ For the whiteboard approach I chose to use the mor efficient hash table way, how
 
 
 
+# Graph - Code challenge
+<!-- Short summary or background information -->
+For todays lab we had to create a graph as an adjacency list.
+
+The following methods were used:
+Graph();
+addNode();
+addEdge();
+getNeighbors();
+getGraphSize();
+printOutAll();
+
+
+## Challenge
+<!-- Description of the challenge -->
+The challenge was to create a functioning graph with all of the required methods. 
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+NA
+
+
+
+
+
+
+
