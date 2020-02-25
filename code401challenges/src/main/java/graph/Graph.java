@@ -11,25 +11,10 @@ public class Graph {
      //https://www.baeldung.com/java-graphs
     // https://algorithms.tutorialhorizon.com/graph-representation-adjacency-matrix-and-adjacency-list/
 
-
-
-    LinkedList<Edge> graphList[];
     int vector;
-
-    public class Edge {
-        int vector;
-        int sourceFrom;
-        int destinationTo;
-        int weight;
-
-        public Edge(int sourceFrom, int destinationTo, int weight) {
-            this.sourceFrom = sourceFrom;
-            this.destinationTo = destinationTo;
-            this.weight = weight;
+    LinkedList<Integer> graphList[];
 
 
-        }
-    }
     public Graph(int vector){
 
         this.vector = vector;
@@ -43,21 +28,20 @@ public class Graph {
     }
 
 
-    public void addEdge(int originalLocation, int destination, int weight){
+    public void addEdge(int originalLocation, int destination){
         //addfirst adds to the beginning of the linked list
-   Edge edge = new Edge(originalLocation, destination, weight);
-        graphList[originalLocation].addFirst(edge);
+        graphList[originalLocation].addFirst(destination);
 
         // This will add the back edge
+        graphList[destination].addFirst(originalLocation);
 
-}
-
+    }
 
     public int addNode(int node){
         for(int i = 0; i < node; i++ ){
 
             if(graphList[i] == null){
-                graphList[i].addEdge(););
+                graphList[i].addFirst(node);
             };
         }
         return node;
