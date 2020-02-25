@@ -10,7 +10,7 @@ public class LinkedListTest {
     //Initial test used for testing all functionality, 7 main tests below this test.
     @Test
     public void testSomeLibraryMethod() {
-        LinkedList list = new LinkedList();
+        LinkedList<Number> list = new LinkedList<Number>();
 //        list.insert(15);
 //        list.insert(12);
 
@@ -40,7 +40,7 @@ public class LinkedListTest {
 // Test 1 Can successfully instantiate an empty linked list
     @Test
     public void testInitiatedLinkedList() {
-        LinkedList list = new LinkedList();
+        LinkedList<Number> list = new LinkedList<Number>();
         boolean isTrue = false;
         if(list.head == null){
             isTrue = true;
@@ -52,7 +52,7 @@ public class LinkedListTest {
     // Test 2 Can properly insert into the linked list
     @Test
     public void testInsertLinkedList() {
-        LinkedList listTest = new LinkedList();
+        LinkedList<Number> listTest = new LinkedList<Number>();
         listTest.insert(16);
         boolean isTrue = false;
         if( listTest.searchNode(listTest.head, 16) == true){
@@ -65,7 +65,7 @@ public class LinkedListTest {
     // Test 3 the head property will properly point to the first node in the linked list
     @Test
     public void testTheHeadPointingToFirst() {
-        LinkedList listTest7 = new LinkedList();
+        LinkedList<Number> listTest7 = new LinkedList<Number>();
         listTest7.insert(16);
         listTest7.insert(17);
         listTest7.insert(20);
@@ -82,7 +82,7 @@ public class LinkedListTest {
     // Test 4 Can properly insert multiple nodes into the linked list
     @Test
     public void testInsertMultipleNodes() {
-        LinkedList listTest = new LinkedList();
+        LinkedList<Number> listTest = new LinkedList<Number>();
         listTest.insert(16);
         listTest.insert(17);
         listTest.insert(18);
@@ -98,7 +98,7 @@ public class LinkedListTest {
     // Test 5 Will return true when finding a value within the linked list that exists
     @Test
     public void testFindValueSearched() {
-        LinkedList listTest = new LinkedList();
+        LinkedList<Number> listTest = new LinkedList<Number>();
         listTest.insert(16);
         listTest.insert(17);
         listTest.insert(18);
@@ -115,7 +115,7 @@ public class LinkedListTest {
     // Test 6 Will return false when searching for a value in the linked list that does not exist
     @Test
     public void testValueNotFound() {
-        LinkedList listTest = new LinkedList();
+        LinkedList<Number> listTest = new LinkedList<Number>();
         listTest.insert(16);
         listTest.insert(17);
         listTest.insert(18);
@@ -136,7 +136,7 @@ public class LinkedListTest {
     // Test 7 Can properly return a collection of all the values that exist in the linked list
     @Test
     public void testTheHeadPointingToFirs() {
-        LinkedList listTest7 = new LinkedList();
+        LinkedList<Number> listTest7 = new LinkedList<Number>();
         listTest7.insert(16);
         listTest7.insert(17);
         listTest7.insert(20);
@@ -152,7 +152,7 @@ public class LinkedListTest {
 
     @Test
     public void testAppend() {
-        LinkedList listTest7 = new LinkedList();
+        LinkedList<Number> listTest7 = new LinkedList<Number>();
         listTest7.insert(5);
         listTest7.insert(6);
         listTest7.append(7);
@@ -170,7 +170,7 @@ public class LinkedListTest {
 
     @Test
     public void insertAfter() {
-        LinkedList listTest7 = new LinkedList();
+        LinkedList<Number> listTest7 = new LinkedList<Number>();
         listTest7.insert(5);
         listTest7.insert(6);
         listTest7.insert(7);
@@ -189,7 +189,7 @@ public class LinkedListTest {
 
     @Test
     public void insertBefore() {
-        LinkedList listTest7 = new LinkedList();
+        LinkedList<Number> listTest7 = new LinkedList<Number>();
         listTest7.insert(6);
         listTest7.insert(7);
         listTest7.insert(8);
@@ -206,7 +206,7 @@ public class LinkedListTest {
 
     @Test
     public void testFindKthFromEnd() {
-        LinkedList listTest7 = new LinkedList();
+        LinkedList<Number> listTest7 = new LinkedList<Number>();
         listTest7.insert(5);
         listTest7.insert(6);
         listTest7.insert(7);
@@ -224,7 +224,7 @@ public class LinkedListTest {
     }
     @Test
     public void testFindKthFromEndTestTwo() {
-        LinkedList listTest7 = new LinkedList();
+        LinkedList<Number> listTest7 = new LinkedList<Number>();
         listTest7.insert(5);
         listTest7.insert(6);
         listTest7.insert(7);
@@ -244,8 +244,8 @@ public class LinkedListTest {
 
     @Test
     public void testMergeList() {
-        LinkedList test = new LinkedList();
-        LinkedList listTest7 = new LinkedList();
+        LinkedList<Number> test = new LinkedList<Number>();
+        LinkedList<Number> listTest7 = new LinkedList<Number>();
         listTest7.insert(2);
         listTest7.insert(4);
         listTest7.insert(6);
@@ -253,7 +253,7 @@ public class LinkedListTest {
         listTest7.insert(10);
 
 
-        LinkedList listTest8 = new LinkedList();
+        LinkedList<Number> listTest8 = new LinkedList<Number>();
         listTest8.insert(1);
         listTest8.insert(3);
         listTest8.insert(5);

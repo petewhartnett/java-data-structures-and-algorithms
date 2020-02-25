@@ -51,8 +51,6 @@ public int peek(){
             current = current.next;
         }
 
-
-
         return current.data;
 }
 

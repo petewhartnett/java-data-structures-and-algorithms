@@ -1,7 +1,7 @@
 package linkedlist;
 // Geeks for Geeks, Stackoverflow, and linkedlist in java video series were all referenced for this lab.
 
-public class LinkedList {
+public class LinkedList<I extends Number> {
 
     Node head;
 

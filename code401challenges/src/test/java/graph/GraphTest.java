@@ -115,7 +115,7 @@ public class GraphTest {
         Graph graph = new Graph(1);
 
       List<String> actual = graph.printOutAll();
-      
+
         List<String> expected = new ArrayList<>();
 
 
