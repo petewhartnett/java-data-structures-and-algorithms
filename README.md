@@ -502,4 +502,20 @@ For this approach the grapgh is an adjacency list, and using the methos addNode(
 
 
 
+# Graph Breadth First Search - Code challenge
+<!-- Short summary or background information -->
+For todays lab we had to create a function that used breadth first traversal of a graph. 
+
+
+## Challenge
+<!-- Description of the challenge -->
+The challenge was to create a function that used breadth first traversal of a graph.
+
+## Approach 
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+For this approach I chose to use a queue use the level order traversal, I am still working through the problem. 
+
+
+
+
 
