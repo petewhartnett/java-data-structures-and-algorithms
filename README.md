@@ -494,10 +494,9 @@ printOutAll();
 <!-- Description of the challenge -->
 The challenge was to create a functioning graph with all of the required methods. 
 
-## Approach & Efficiency
+## Approach 
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
-NA
-
+For this approach the grapgh is an adjacency list, and using the methos addNode()to add a node, addEdge() to add edges, getNeighbors() to get the neighbors of a node. getGraphSize() to return the size, and printOutAll() to print all nodes and their edges. 
 
 
 
