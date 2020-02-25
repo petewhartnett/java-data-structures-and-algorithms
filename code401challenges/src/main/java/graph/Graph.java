@@ -11,17 +11,17 @@ public class Graph {
      //https://www.baeldung.com/java-graphs
     // https://algorithms.tutorialhorizon.com/graph-representation-adjacency-matrix-and-adjacency-list/
 
-    int size;
+    int vector;
     LinkedList<Integer> graphList[];
 
 
-    public Graph(int size){
+    public Graph(int vector){
 
-        this.size = size;
-        graphList = new LinkedList[size];
+        this.vector = vector;
+        graphList = new LinkedList[vector];
 
 
-        for(int i = 0; i < size; i++ ){
+        for(int i = 0; i < vector; i++ ){
 
             graphList[i] = new LinkedList<>();
         }
@@ -50,7 +50,9 @@ public class Graph {
 
     public List<String> getNeighbors() {
         List<String>  list = new ArrayList<>();
-        for (int i = 0; i < size; i++) {
+
+
+        for (int i = 0; i < vector; i++) {
             if (graphList[i].size() > 0) {
 
                 for (int j = 0; j < graphList[i].size(); j++) {
@@ -65,7 +67,10 @@ public class Graph {
 
     public List<String> printOutAll() {
         List<String>  list = new ArrayList<>();
-        for (int i = 0; i < size; i++) {
+        if(graphList == null){
+            return null;
+        }
+        for (int i = 0; i < vector; i++) {
             if (graphList[i].size() > 0) {
 
                 for (int j = 0; j < graphList[i].size(); j++) {
@@ -79,7 +84,7 @@ public class Graph {
 
         public int getGraphSize(){
             int count = 0;
-            for(int i = 0; i < size; i++){
+            for(int i = 0; i < vector; i++){
                 if(graphList[i].size() > 0) {
                     for (int j = 0; j < graphList[i].size(); j++) {
                         count += graphList[i].size();

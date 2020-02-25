@@ -11,6 +11,42 @@ public class GraphTest {
 
 
     @Test
+    public void GraphEdgeTest() {
+        Graph graph = new Graph(8);
+        graph.addEdge(1,2);
+        graph.addEdge(3,5);
+        graph.addEdge(7,1);
+        graph.addEdge(2,4);
+        graph.addEdge(2,2);
+
+        List<String> list = graph.getNeighbors();
+
+        String actual = list.get(2);
+        String expected = "Location 2 neighbors with 2 ";
+
+        assertEquals("Checks neighbors for graph ", expected, actual );
+
+    }
+
+    @Test
+    public void GraphEdgeTest2() {
+        Graph graph = new Graph(8);
+        graph.addEdge(1,6);
+        graph.addEdge(4,1);
+        graph.addEdge(7,1);
+        graph.addEdge(3,3);
+        graph.addEdge(2,1);
+
+        List<String> list = graph.getNeighbors();
+
+        String actual = list.get(1);
+        String expected = "Location 1 neighbors with 7 ";
+
+        assertEquals("Checks neighbors for graph ", expected, actual );
+
+    }
+
+    @Test
     public void GraphSizeTest() {
         Graph graph = new Graph(8);
         graph.addEdge(1,2);
@@ -74,7 +110,20 @@ public class GraphTest {
 
     }
 
+    @Test
+    public void emptyTest() {
+        Graph graph = new Graph(1);
 
+      List<String> actual = graph.printOutAll();
+      
+        List<String> expected = new ArrayList<>();
+
+
+
+        assertEquals("If empty array list sends out a null value, same as the null default of a new empty array list", expected, actual );
+
+        // }
+    }
 
     @Test
     public void GraphPrintTest() {
