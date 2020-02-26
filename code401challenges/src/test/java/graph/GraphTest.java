@@ -115,7 +115,7 @@ public class GraphTest {
         Graph graph = new Graph(1);
 
       List<String> actual = graph.printOutAll();
-      
+
         List<String> expected = new ArrayList<>();
 
 
@@ -153,6 +153,10 @@ public class GraphTest {
         graph.addEdge(7,1);
         graph.addEdge(2,4);
         graph.addEdge(2,2);
+
+
+        BFS bfs = new BFS();
+
 
         List<String> list = graph.getNeighbors();
 
