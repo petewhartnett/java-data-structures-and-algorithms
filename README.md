@@ -513,7 +513,7 @@ The challenge was to create a function that used breadth first traversal of a gr
 
 ## Approach 
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
-For this approach I chose to use a queue use the level order traversal, I am still working through the problem. 
+For this approach I chose to use a queue use the level order traversal. THe method uses an array of booleans to check if a node has already been visited or not to account for duplicates. If it has not it is added to the queue and printed out on deEnqueue. 
 
 ## Solution
 <!-- Embedded whiteboard image -->
