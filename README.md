@@ -522,3 +522,22 @@ For this approach I chose to use a queue use the level order traversal. THe meth
 
 
 
+# Count-edge - Code challenge
+<!-- Short summary or background information -->
+For todays lab we had to create a function that counts edges for a travel pattern. 
+
+
+## Challenge
+<!-- Description of the challenge -->
+The challenge was to function that counts edges for a travel pattern. 
+
+## Approach 
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+in progress
+
+## Solution
+<!-- Embedded whiteboard image -->
+![](assets/count-edge.JPG)
+
+
+
