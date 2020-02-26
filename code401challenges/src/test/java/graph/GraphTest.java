@@ -154,6 +154,10 @@ public class GraphTest {
         graph.addEdge(2,4);
         graph.addEdge(2,2);
 
+
+        BFS bfs = new BFS();
+
+
         List<String> list = graph.getNeighbors();
 
         String actual = list.get(2);
