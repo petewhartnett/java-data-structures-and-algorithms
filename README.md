@@ -533,11 +533,31 @@ The challenge was to function that counts edges for a travel pattern.
 
 ## Approach 
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
-in progress
+In progress approach needs testing. 
+
 
 ## Solution
 <!-- Embedded whiteboard image -->
 ![](assets/count-edge.JPG)
 
 
+
+
+# Count-edge - Code challenge
+<!-- Short summary or background information -->
+For todays lab we had to create a function that performs a depth first search of a graph. 
+
+
+## Challenge
+<!-- Description of the challenge -->
+The challenge was to create a function that performs a depth first search of a graph. 
+
+## Approach 
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+The approach was to do a recursive iteration of the graph, similiar to the approach taken with a binary tree. 
+a few main differences though, this DFS will use an array of booleans to return a true value if a node has been visited, if it returns false then the node can be logged. If it is true then it will not be logged and it will move on. 
+
+## Solution
+<!-- Embedded whiteboard image -->
+![](assets/dfs.JPG)
 
