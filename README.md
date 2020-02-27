@@ -543,10 +543,9 @@ In progress approach needs testing.
 
 
 
-# Count-edge - Code challenge
+# Depth First Search - Code challenge
 <!-- Short summary or background information -->
 For todays lab we had to create a function that performs a depth first search of a graph. 
-
 
 ## Challenge
 <!-- Description of the challenge -->
