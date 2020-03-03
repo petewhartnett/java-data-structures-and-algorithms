@@ -518,6 +518,7 @@ For this approach I chose to use a queue use the level order traversal. THe meth
 ## Solution
 <!-- Embedded whiteboard image -->
 ![](assets/bfs.JPG)
+![](assets/BFS2.JPG)
 
 
 
@@ -559,4 +560,5 @@ a few main differences though, this DFS will use an array of booleans to return 
 ## Solution
 <!-- Embedded whiteboard image -->
 ![](assets/dfs.JPG)
+![](assets/DFS2.JPG)
 
